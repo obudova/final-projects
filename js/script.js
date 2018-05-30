@@ -19,10 +19,10 @@ function animateStrands(strand) {
     let flags = Array.from(strand.querySelectorAll('.flag'));
     let strandPathDuration = Math.random() * (2 * duration) + duration;
     let fromPath = "path('M0,0 C100,100 700,200 800,100')";
-    let toPath = `path('M0,0 C${Math.random() * 20 + 80},${Math.random() * 20 + 80} ${Math.random() * -50 + 700},${Math.random() * 100} 800,100')`;
+    let toPath = `path('M0,0 C${Math.random() * 20 + 50},${Math.random() * 20 + 80} ${Math.random() * -50 + 700},${Math.random() * 100} 500,100')`;
 
     flags.forEach((flag, i) => {
-        flag.style.offsetDistance = `${80 + i * 740 / flags.length}px`;
+        flag.style.offsetDistance = `${190 + i * 500 / flags.length}px`;
         animateWindRotate(flag);
         //animateWindCurve(flag, fromPath, toPath, strandPathDuration);
     });
