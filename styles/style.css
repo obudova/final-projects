@@ -147,7 +147,7 @@ label a {
   .flag:not(.string) {
     position: absolute;
     offset-anchor: 50% 0%;
-    offset-path: path("M4,6 C217,129 692,142 635,61"); }
+    offset-path: path("M4,6 C217,141, 692,147 635,138"); }
 
   .string,
   .string svg {
