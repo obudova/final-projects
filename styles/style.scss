@@ -1,0 +1,15 @@
+@import "components/reset";
+@import "components/nav";
+@import "components/banner";
+@import "components/typography";
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body{
+  overflow: hidden;
+}
